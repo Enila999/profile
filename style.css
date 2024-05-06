@@ -1,0 +1,92 @@
+h1 {
+  color:#1a2428;
+  font-family: Reddit sans Condensed;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+#my-photo {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 10px 30px rgba(9,11,11,.1);
+}
+.container {
+  margin: 24px;
+  padding: 36px;
+  background-image: url('images/Al_ine\ Motif\ et\ fond.png');
+  background-image: center;
+  border-radius: 20px;
+  width: 1000px;
+}
+
+.card {
+  margin: 16px;
+  padding: 24px;
+  background-color: #e8e3d9;
+  border-radius: 25px;
+  width: 750px;
+  box-shadow: 0 10px 30px rgba(9,11,11,.2);
+
+}
+
+h2 {
+  color: #2a3d45;
+  font-family: Reddit sans Condensed;
+}
+
+p {
+  font-family: Reddit sans Condensed;
+  font-weight: 300;
+  font-size: 20px;
+  color: #1a2428;
+}
+
+ul {
+  font-family: Reddit sans Condensed;
+  font-weight: 300;
+  font-size: 20px
+}
+.button{
+  background-color: #cbbca0;
+  border-radius: 8px;
+  padding: 20px;
+  border: 0px;
+  font-family: Reddit sans Condensed;
+  font-weight: bold;
+  font-size: 15px;
+  color: #e8e3d9;
+}
+
+button:hover{
+  color:#cbbca0;
+  background-color: #e8e3d9;
+  font-size: 17px;
+}
+a {
+  text-decoration : none;
+  color: #22223b;
+}
+
+a:hover {
+  color : #cbbca0;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
